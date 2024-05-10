@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Strath Car Rentals </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="payment">"Payment can be made through M-PESA phone no- 0724227124 or Paybill - 110560"</string>
+    <string name="telephone">Telephone: 0724227124</string>
+    <string name="Location">Location: Madaraka Estate, Ole Sangale Road. Postal Address: P.O. Box 59857, 00200, City Square, Nairobi, Kenya.</string>
+    <string name="email">Email: strathcarrents@gmail.com</string>
+    <string name="about">Strath Car Rentals is a car rental service provider that focuses on providing a comfortable and safe driving experience for customers. With a wide variety of cars available, Strath Car Rentals provides options to suit customer needs and preferences.
+\n\n
+Our vision is to be a trusted partner in the customer journey by providing the best service and a satisfying experience. We are committed to maintaining the reliability, cleanliness and quality of our vehicles so that customers feel satisfied and have confidence in our services.
+\n\n
+Security is our top priority. Every car in the Strath Car Rentals app undergoes periodic inspections and regular maintenance to ensure optimal condition and customer safety.
+\n\n
+We invite you to explore our app, view the wide selection of cars available, read customer reviews and book a car easily. With Strath Car Rentals, enjoy your trip comfortably, worry-free and full of excitement </string>
+</resources>

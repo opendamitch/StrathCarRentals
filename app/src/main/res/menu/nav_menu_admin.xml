@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_homeAdmin"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item
+        android:title="Users"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/nav_pelangganAdmin"
+                android:icon="@drawable/pelanggan"
+                android:title="Customer"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Drivers"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/nav_sopirAdmin"
+                android:icon="@drawable/sopir"
+                android:title="Driver"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Main"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/nav_CategoryAdmin"
+                android:icon="@drawable/category"
+                android:title="Car Category"/>
+
+            <item
+                android:id="@+id/nav_mobilAdmin"
+                android:icon="@drawable/mobil"
+                android:title="Car"/>
+
+            <item
+                android:id="@+id/nav_rentalAdmin"
+                android:icon="@drawable/rental"
+                android:title="Rental"/>
+
+            <item
+                android:id="@+id/nav_laporanAdmin"
+                android:icon="@drawable/riwayat"
+                android:title="Report"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Other"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_logoutAdmin"
+                android:icon="@drawable/logout"
+                android:title="Exit Application"/>
+        </menu>
+    </item>
+
+</menu>

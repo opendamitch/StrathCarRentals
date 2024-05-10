@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_homePelanggan"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_profilAdmin"
+        android:icon="@drawable/pegawai"
+        android:title="Profile"/>
+
+    <item
+        android:title="Car Rental"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/nav_mobilPelanggan"
+                android:icon="@drawable/mobil"
+                android:title="Car Catalog"/>
+
+            <item
+                android:id="@+id/nav_rentalPelanggan"
+                android:icon="@drawable/rental"
+                android:title="Car Booking"/>
+
+            <item
+                android:id="@+id/nav_riwayatPelanggan"
+                android:icon="@drawable/riwayat"
+                android:title="History"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="Others"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_logoutPelanggan"
+                android:icon="@drawable/logout"
+                android:title="Exit Application"/>
+        </menu>
+    </item>
+
+</menu>
